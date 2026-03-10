@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JWLS 3D Viewer</title>
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: transparent;
+    }
+    model-viewer {
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+      --poster-color: transparent;
+    }
+    model-viewer::part(default-progress-bar) {
+      display: none;
+    }
+    .loading-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255,255,255,0.9);
+      z-index: 10;
+    }
+    .loading-overlay.hidden {
+      display: none;
+    }
+    .spinner {
+      width: 40px;
+      height: 40px;
+      border: 3px solid #e0e0e0;
+      border-top-color: #9333ea;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div id="loading" class="loading-overlay">
+    <div class="spinner"></div>
+  </div>
+
+  <model-viewer
+    id="viewer"
+    camera-controls
+    touch-action="pan-y"
+    auto-rotate
+    shadow-intensity="1"
+    exposure="1"
+    environment-image="neutral"
+    tone-mapping="commerce"
+  ></model-viewer>
+
+  <script>
+    const viewer = document.getElementById('viewer');
+    const loading = document.getElementById('loading');
+
+    // Track materials and meshes
+    let materialMap = {};
+    let meshNames = [];
+
+    // Hide loading when model loads
+    viewer.addEventListener('load', () => {
+      loading.classList.add('hidden');
+
+      // Extract material names from model
+      materialMap = {};
+      meshNames = [];
+
+      if (viewer.model) {
+        const materials = viewer.model.materials;
+        for (let i = 0; i < materials.length; i++) {
+          const mat = materials[i];
+          materialMap[mat.name] = i;
+          meshNames.push(mat.name);
+        }
+
+        // Notify Flutter of available materials/meshes
+        if (window.flutter_inappwebview) {
+          window.flutter_inappwebview.callHandler('onMeshesLoaded', JSON.stringify(meshNames));
+        }
+        if (window.FlutterChannel) {
+          window.FlutterChannel.postMessage(JSON.stringify({
+            type: 'meshesLoaded',
+            meshes: meshNames
+          }));
+        }
+      }
+
+      console.log('Model loaded. Materials:', meshNames);
+    });
+
+    viewer.addEventListener('progress', (event) => {
+      const progress = event.detail.totalProgress;
+      console.log('Loading progress:', progress);
+    });
+
+    viewer.addEventListener('error', (event) => {
+      console.error('Model error:', event);
+      loading.innerHTML = '<div style="color:red;text-align:center;">Error loading model</div>';
+    });
+
+    // ============== API Functions ==============
+
+    // Load a model from URL
+    function loadModel(url) {
+      console.log('Loading model:', url);
+      loading.classList.remove('hidden');
+      viewer.src = url;
+    }
+
+    // Get all material/mesh names
+    function getMeshNames() {
+      return JSON.stringify(meshNames);
+    }
+
+    // Apply MeshPhysicalMaterial properties to a specific material
+    // properties: { color, metalness, roughness, transmission, ior, clearcoat }
+    function setMaterial(materialName, properties) {
+      if (!viewer.model) {
+        console.error('No model loaded');
+        return false;
+      }
+
+      const props = typeof properties === 'string' ? JSON.parse(properties) : properties;
+      console.log('Setting material:', materialName, props);
+
+      // Find the material
+      let material = null;
+      const materials = viewer.model.materials;
+
+      for (let i = 0; i < materials.length; i++) {
+        if (materials[i].name === materialName || materialName === '*') {
+          material = materials[i];
+
+          // Apply PBR properties
+          const pbr = material.pbrMetallicRoughness;
+
+          // Set base color (RGB values 0-1)
+          if (props.color !== undefined) {
+            const hex = props.color;
+            const r = ((hex >> 16) & 255) / 255;
+            const g = ((hex >> 8) & 255) / 255;
+            const b = (hex & 255) / 255;
+            pbr.setBaseColorFactor([r, g, b, 1.0]);
+          }
+
+          // Set metalness (0-1)
+          if (props.metalness !== undefined) {
+            pbr.setMetallicFactor(props.metalness);
+          }
+
+          // Set roughness (0-1)
+          if (props.roughness !== undefined) {
+            pbr.setRoughnessFactor(props.roughness);
+          }
+
+          // If not applying to all (*), break after first match
+          if (materialName !== '*') break;
+        }
+      }
+
+      if (!material && materialName !== '*') {
+        console.warn('Material not found:', materialName);
+        return false;
+      }
+
+      return true;
+    }
+
+    // Apply material to ALL meshes (convenience function)
+    function setAllMaterials(properties) {
+      return setMaterial('*', properties);
+    }
+
+    // Set environment/lighting
+    function setEnvironment(preset) {
+      const presets = {
+        'studio': 'neutral',
+        'outdoor': 'legacy',
+        'showroom': 'neutral',
+        'dramatic': 'neutral'
+      };
+      viewer.environmentImage = presets[preset] || 'neutral';
+
+      // Adjust exposure for different environments
+      const exposures = {
+        'studio': 1.0,
+        'outdoor': 0.8,
+        'showroom': 1.2,
+        'dramatic': 0.6
+      };
+      viewer.exposure = exposures[preset] || 1.0;
+    }
+
+    // Set camera position
+    function setCameraOrbit(theta, phi, radius) {
+      viewer.cameraOrbit = `${theta}deg ${phi}deg ${radius}m`;
+    }
+
+    // Reset camera to default
+    function resetCamera() {
+      viewer.cameraOrbit = 'auto auto auto';
+    }
+
+    // Enable/disable auto-rotate
+    function setAutoRotate(enabled) {
+      viewer.autoRotate = enabled;
+    }
+
+    // Get current model info
+    function getModelInfo() {
+      if (!viewer.model) return JSON.stringify({ error: 'No model loaded' });
+
+      return JSON.stringify({
+        materials: meshNames,
+        dimensions: viewer.getDimensions(),
+        src: viewer.src
+      });
+    }
+
+    // Preset material definitions (matching our Flutter presets)
+    const METAL_PRESETS = {
+      'gold_24k_polished': { color: 0xFFD700, metalness: 1.0, roughness: 0.10 },
+      'gold_24k_matte': { color: 0xFFD700, metalness: 1.0, roughness: 0.40 },
+      'gold_22k': { color: 0xDAA520, metalness: 1.0, roughness: 0.15 },
+      'gold_18k_yellow': { color: 0xFFC125, metalness: 1.0, roughness: 0.18 },
+      'gold_18k_white': { color: 0xF5F5F5, metalness: 0.95, roughness: 0.12 },
+      'gold_18k_rose': { color: 0xB76E79, metalness: 1.0, roughness: 0.12 },
+      'gold_14k_yellow': { color: 0xFFB347, metalness: 1.0, roughness: 0.20 },
+      'silver_925_polished': { color: 0xC0C0C0, metalness: 0.98, roughness: 0.08 },
+      'silver_925_matte': { color: 0xB0B0B0, metalness: 0.95, roughness: 0.40 },
+      'platinum_950': { color: 0xE5E4E2, metalness: 1.0, roughness: 0.05 },
+      'rhodium': { color: 0xD0D5DD, metalness: 1.0, roughness: 0.03 }
+    };
+
+    const GEM_PRESETS = {
+      'diamond': { color: 0xFFFFFF, metalness: 0, roughness: 0.0 },
+      'ruby': { color: 0xE0115F, metalness: 0, roughness: 0.08 },
+      'sapphire': { color: 0x0F52BA, metalness: 0, roughness: 0.08 },
+      'emerald': { color: 0x50C878, metalness: 0, roughness: 0.15 }
+    };
+
+    // Apply a preset by name
+    function applyPreset(presetName, materialName) {
+      const preset = METAL_PRESETS[presetName] || GEM_PRESETS[presetName];
+      if (!preset) {
+        console.error('Unknown preset:', presetName);
+        return false;
+      }
+      return setMaterial(materialName || '*', preset);
+    }
+
+    // Expose functions globally for Flutter WebView to call
+    window.jwlsViewer = {
+      loadModel,
+      getMeshNames,
+      setMaterial,
+      setAllMaterials,
+      setEnvironment,
+      setCameraOrbit,
+      resetCamera,
+      setAutoRotate,
+      getModelInfo,
+      applyPreset
+    };
+
+    console.log('JWLS 3D Viewer initialized. API available at window.jwlsViewer');
+  </script>
+</body>
+</html>
