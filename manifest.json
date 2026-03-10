@@ -1,0 +1,63 @@
+{
+    "name": "JWLS - Jewelry Management System",
+    "short_name": "JWLS",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#1a237e",
+    "theme_color": "#1a237e",
+    "description": "Professional jewelry store management system with inventory, POS, CRM, manufacturing workflow, and analytics.",
+    "orientation": "any",
+    "prefer_related_applications": false,
+    "categories": ["business", "productivity", "shopping"],
+    "lang": "en",
+    "dir": "ltr",
+    "scope": "/",
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [],
+    "shortcuts": [
+        {
+            "name": "Dashboard",
+            "short_name": "Dashboard",
+            "description": "View sales dashboard",
+            "url": "/#/dashboard",
+            "icons": [{"src": "icons/Icon-192.png", "sizes": "192x192"}]
+        },
+        {
+            "name": "Point of Sale",
+            "short_name": "POS",
+            "description": "Open POS terminal",
+            "url": "/#/pos",
+            "icons": [{"src": "icons/Icon-192.png", "sizes": "192x192"}]
+        },
+        {
+            "name": "Inventory",
+            "short_name": "Inventory",
+            "description": "Manage inventory",
+            "url": "/#/inventory",
+            "icons": [{"src": "icons/Icon-192.png", "sizes": "192x192"}]
+        }
+    ]
+}
