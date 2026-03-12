@@ -1,38 +1,38 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,C={
-fNb(){return new C.aaE(null)},
-aaE:function aaE(d){this.a=d},
-bxo:function bxo(d){var _=this
+fTO(){return new C.aaY(null)},
+aaY:function aaY(d){this.a=d},
+byk:function byk(d){var _=this
 _.d=d
 _.e=!0
 _.c=_.a=_.f=null},
-daI:function daI(d){this.a=d},
-daJ:function daJ(d){this.a=d},
-daK:function daK(d,e){this.a=d
+dcD:function dcD(d){this.a=d},
+dcE:function dcE(d){this.a=d},
+dcF:function dcF(d,e){this.a=d
 this.b=e},
-daL:function daL(d){this.a=d},
-daO:function daO(d,e){this.a=d
+dcG:function dcG(d){this.a=d},
+dcJ:function dcJ(d,e){this.a=d
 this.b=e},
-daM:function daM(d,e,f){this.a=d
+dcH:function dcH(d,e,f){this.a=d
 this.b=e
 this.c=f},
-daN:function daN(d){this.a=d},
-daS:function daS(d){this.a=d},
-daQ:function daQ(d){this.a=d},
-daR:function daR(d,e,f,g,h){var _=this
+dcI:function dcI(d){this.a=d},
+dcN:function dcN(d){this.a=d},
+dcL:function dcL(d){this.a=d},
+dcM:function dcM(d,e,f,g,h){var _=this
 _.a=d
 _.b=e
 _.c=f
 _.d=g
 _.e=h},
-daP:function daP(d,e){this.a=d
+dcK:function dcK(d,e){this.a=d
 this.b=e},
-aTm:function aTm(d,e,f,g){var _=this
+aU1:function aU1(d,e,f,g){var _=this
 _.c=d
 _.d=e
 _.e=f
 _.a=g},
-aTn:function aTn(d,e,f,g,h){var _=this
+aU2:function aU2(d,e,f,g,h){var _=this
 _.d=d
 _.e=e
 _.f=f
@@ -44,143 +44,143 @@ _.at=!1
 _.ax="INR"
 _.ay=h
 _.c=_.a=null},
-daT:function daT(d,e){this.a=d
+dcO:function dcO(d,e){this.a=d
 this.b=e},
-db0:function db0(){},
-db1:function db1(d){this.a=d},
-db_:function db_(d,e){this.a=d
+dcW:function dcW(){},
+dcX:function dcX(d){this.a=d},
+dcV:function dcV(d,e){this.a=d
 this.b=e},
-db2:function db2(){},
-db3:function db3(){},
-db4:function db4(){},
-db5:function db5(d){this.a=d},
-daZ:function daZ(d,e){this.a=d
+dcY:function dcY(){},
+dcZ:function dcZ(){},
+dd_:function dd_(){},
+dd0:function dd0(d){this.a=d},
+dcU:function dcU(d,e){this.a=d
 this.b=e},
-db6:function db6(d){this.a=d},
-daY:function daY(d,e){this.a=d
+dd1:function dd1(d){this.a=d},
+dcT:function dcT(d,e){this.a=d
 this.b=e},
-db7:function db7(d){this.a=d},
-daX:function daX(d,e){this.a=d
+dd2:function dd2(d){this.a=d},
+dcS:function dcS(d,e){this.a=d
 this.b=e},
-db8:function db8(d){this.a=d},
-daW:function daW(d,e){this.a=d
+dd3:function dd3(d){this.a=d},
+dcR:function dcR(d,e){this.a=d
 this.b=e},
-db9:function db9(d){this.a=d},
-daV:function daV(d,e){this.a=d
+dd4:function dd4(d){this.a=d},
+dcQ:function dcQ(d,e){this.a=d
 this.b=e},
-dba:function dba(d){this.a=d},
-daU:function daU(d,e){this.a=d
+dd5:function dd5(d){this.a=d},
+dcP:function dcP(d,e){this.a=d
 this.b=e}},D,F,E
 J=c[1]
 A=c[0]
 B=c[2]
 C=a.updateHolder(c[14],C)
-D=c[26]
-F=c[23]
-E=c[27]
-C.aaE.prototype={
-R(){return new C.bxo(A.a([],y.t))}}
-C.bxo.prototype={
+D=c[28]
+F=c[25]
+E=c[29]
+C.aaY.prototype={
+R(){return new C.byk(A.a([],y.t))}}
+C.byk.prototype={
 a_(){this.a4()
-this.LM()},
-bv(){var x,w,v=this
-v.c_()
+this.M8()},
+bu(){var x,w,v=this
+v.c0()
 x=v.c
 x.toString
-w=A.eh(x)
+w=A.ee(x)
 if(w!=v.f){v.f=w
-v.LM()}},
-LM(){var x=0,w=A.D(y.H),v,u=2,t=[],s=this,r,q,p,o,n,m,l
-var $async$LM=A.z(function(d,e){if(d===1){t.push(e)
-x=u}for(;;)switch(x){case 0:s.m(new C.daI(s))
+v.M8()}},
+M8(){var x=0,w=A.A(y.H),v,u=2,t=[],s=this,r,q,p,o,n,m,l
+var $async$M8=A.w(function(d,e){if(d===1){t.push(e)
+x=u}for(;;)switch(x){case 0:s.m(new C.dcD(s))
 u=4
 o=s.f
-if(o==null){n=$.c3().a
+if(o==null){n=$.c1().a
 o=n==null?null:n.a}r=o
-if(r==null){s.m(new C.daJ(s))
+if(r==null){s.m(new C.dcE(s))
 x=1
 break}x=7
-return A.l(F.aF7(r),$async$LM)
+return A.l(F.aFD(r),$async$M8)
 case 7:q=e
-s.m(new C.daK(s,q))
+s.m(new C.dcF(s,q))
 u=2
 x=6
 break
 case 4:u=3
 l=t.pop()
 p=A.T(l)
-s.m(new C.daL(s))
+s.m(new C.dcG(s))
 n=s.c
-if(n!=null)A.eM(n,"Error loading templates: "+A.n(p))
+if(n!=null)A.eN(n,"Error loading templates: "+A.n(p))
 x=6
 break
 case 3:x=2
 break
-case 6:case 1:return A.B(v,w)
-case 2:return A.A(t.at(-1),w)}})
-return A.C($async$LM,w)},
-b1L(d){var x=null,w=this.c
+case 6:case 1:return A.y(v,w)
+case 2:return A.x(t.at(-1),w)}})
+return A.z($async$M8,w)},
+b3y(d){var x=null,w=this.c
 w.toString
-A.b1(x,x,!0,x,new C.daO(this,d),w,x,!0,!0,y.z)},
-cso(){return this.b1L(null)},
-D(d){var x,w,v,u,t,s,r,q,p,o,n,m,l=this,k=null,j=A.u(d).ax.a===B.r
-if(j)x=$.N?B.w:B.ag
-else x=B.aF
-if(j)w=$.N?B.L:B.N
+A.b0(x,x,!0,x,new C.dcJ(this,d),w,x,!0,!0,y.z)},
+cw0(){return this.b3y(null)},
+E(d){var x,w,v,u,t,s,r,q,p,o,n,m,l=this,k=null,j=A.q(d).ax.a===B.o
+if(j)x=$.M?B.w:B.ag
+else x=B.aI
+if(j)w=$.M?B.L:B.N
 else w=B.h
 if(j)v=B.h
-else v=$.N?B.w:B.ag
-u=j?B.h.j(0.05):B.bg
-if(l.e)t=A.aA(A.bY(k,A.F(),k,k,k,k,k,k,k,k),k,k)
-else{t=4*$.w.i()/100
+else v=$.M?B.w:B.ag
+u=j?B.h.i(0.05):B.bm
+if(l.e)t=A.az(A.bZ(k,A.D(),k,k,k,k,k,k,k,k),k,k)
+else{t=4*$.G.j()/100
 s=y.O
-r=A.a([A.F(),A.dG()],s)
+r=A.a([A.D(),A.dD()],s)
 q=y.V
-r=A.i(k,D.bCM,B.e,k,k,new A.k(k,k,k,A.f(12),A.a([new A.aI(0,B.a7,A.F().j(0.4),B.ch,12)],q),new A.aP(B.aP,B.bb,B.a8,r,k,k),k,B.j),k,k,k,k,B.dN,k,k,k)
+r=A.i(k,D.bCD,B.e,k,k,new A.j(k,k,k,A.h(12),A.a([new A.aI(0,B.a7,A.D().i(0.4),B.ct,12)],q),new A.aT(B.aU,B.be,B.ad,r,k,k),k,B.i),k,k,k,k,B.dQ,k,k,k)
 p=y.p
-o=A.v(A.p(A.a([A.c("Barcode & Label Templates",k,k,k,k,k,k,k,k,k,A.r().$3$color$fontSize$fontWeight(v,22,B.x),k,k,k,k,k,k),B.aJ,A.c("Design barcode labels for products",k,k,k,k,k,k,k,k,k,A.r().$2$color$fontSize(B.C,14),k,k,k,k,k,k)],p),B.u,k,B.b,B.c,0,B.k),1)
-n=A.f(10)
-s=A.a([A.F(),A.dG()],s)
-m=A.f(10)
-q=A.a([new A.aI(0,B.a7,A.F().j(0.3),B.bE,8)],q)
-s=A.m(A.a([r,B.bZ,o,A.aq(!1,n,!0,A.i(k,A.m(A.a([B.oy,B.S,A.c("New Template",k,k,k,k,k,k,k,k,k,A.r().$3$color$fontSize$fontWeight(B.h,14,B.v),k,k,k,k,k,k)],p),B.f,B.b,B.F,0,k,k),B.e,k,k,new A.k(k,k,k,m,q,new A.aP(B.aP,B.bb,B.a8,s,k,k),k,B.j),k,k,k,k,B.hg,k,k,k),k,!0,k,k,k,k,k,k,k,k,k,k,k,new C.daQ(l),k,k,k,k,k,k,k)],p),B.f,B.b,B.c,0,k,k)
-q=A.f(14)
+o=A.v(A.p(A.a([A.c("Barcode & Label Templates",k,k,k,k,k,k,k,k,k,A.r().$3$color$fontSize$fontWeight(v,22,B.x),k,k,k,k,k,k),B.aM,A.c("Design barcode labels for products",k,k,k,k,k,k,k,k,k,A.r().$2$color$fontSize(B.B,14),k,k,k,k,k,k)],p),B.v,k,B.b,B.c,0,B.k),1)
+n=A.h(10)
+s=A.a([A.D(),A.dD()],s)
+m=A.h(10)
+q=A.a([new A.aI(0,B.a7,A.D().i(0.3),B.bK,8)],q)
+s=A.m(A.a([r,B.cr,o,A.aq(!1,n,!0,A.i(k,A.m(A.a([B.oP,B.P,A.c("New Template",k,k,k,k,k,k,k,k,k,A.r().$3$color$fontSize$fontWeight(B.h,14,B.u),k,k,k,k,k,k)],p),B.f,B.b,B.E,0,k,k),B.e,k,k,new A.j(k,k,k,m,q,new A.aT(B.aU,B.be,B.ad,s,k,k),k,B.i),k,k,k,k,B.fg,k,k,k),k,!0,k,k,k,k,k,k,k,k,k,k,k,new C.dcL(l),k,k,k,k,k,k,k)],p),B.f,B.b,B.c,0,k,k)
+q=A.h(14)
 m=A.L(u,-1,B.n,1)
-q=A.a([s,B.dQ,A.i(k,A.p(A.a([A.m(A.a([A.q(B.bU,A.F(),k,k,22),B.a0,A.c("Supported Barcode Types",k,k,k,k,k,k,k,k,k,A.r().$3$color$fontSize$fontWeight(v,16,B.x),k,k,k,k,k,k)],p),B.f,B.b,B.c,0,k,k),B.X,A.cq(B.ax,A.a([l.a4T("CODE128","General purpose, alphanumeric",j,w,v),l.a4T("QR","QR Code, high capacity",j,w,v),l.a4T("EAN13","Product barcodes (13 digits)",j,w,v),l.a4T("CODE39","Alphanumeric, simple",j,w,v)],p),B.bC,B.ax,12,16)],p),B.u,k,B.b,B.c,0,B.k),B.e,k,k,new A.k(w,k,m,q,k,k,k,B.j),k,k,k,k,B.cg,k,k,k),B.b1,A.c("Templates ("+J.aF(l.d)+")",k,k,k,k,k,k,k,k,k,A.r().$3$color$fontSize$fontWeight(v,18,B.x),k,k,k,k,k,k),B.X],p)
-if(J.bQ(l.d)){s=8*$.y.i()/100
-q.push(A.aA(new A.U(new A.x(s,s,s,s),A.p(A.a([A.q(B.dC,B.C.j(0.5),k,k,64),B.X,A.c("No templates yet",k,k,k,k,k,k,k,k,k,A.r().$3$color$fontSize$fontWeight(B.C,16,B.v),k,k,k,k,k,k),B.a6,A.c("Create your first barcode template",k,k,k,k,k,k,k,k,k,A.r().$2$color$fontSize(B.C.j(0.7),14),k,k,k,k,k,k)],p),B.f,k,B.b,B.c,0,B.k),k),k,k))}else q.push(A.Q8(k,B.I,D.ds6,new C.daR(l,w,u,v,j),J.aF(l.d),k,B.dy,!0))
-t=A.i(k,A.b8(A.p(q,B.u,k,B.b,B.c,0,B.k),k,B.I,new A.x(t,t,t,t),k,k,B.Z),B.e,x,k,k,k,k,k,k,k,k,k,k)}return A.el(k,t,7,k,new C.daS(d),!0,"Barcode Template Designer")},
-a4T(d,e,f,g,h){var x,w,v,u=null
-if(f)x=$.N?B.L:B.N
+q=A.a([s,B.dV,A.i(k,A.p(A.a([A.m(A.a([A.t(B.bZ,A.D(),k,k,22),B.a1,A.c("Supported Barcode Types",k,k,k,k,k,k,k,k,k,A.r().$3$color$fontSize$fontWeight(v,16,B.x),k,k,k,k,k,k)],p),B.f,B.b,B.c,0,k,k),B.X,A.cm(B.ap,A.a([l.a5N("CODE128","General purpose, alphanumeric",j,w,v),l.a5N("QR","QR Code, high capacity",j,w,v),l.a5N("EAN13","Product barcodes (13 digits)",j,w,v),l.a5N("CODE39","Alphanumeric, simple",j,w,v)],p),B.bA,B.ap,12,16)],p),B.v,k,B.b,B.c,0,B.k),B.e,k,k,new A.j(w,k,m,q,k,k,k,B.i),k,k,k,k,B.cf,k,k,k),B.aV,A.c("Templates ("+J.aC(l.d)+")",k,k,k,k,k,k,k,k,k,A.r().$3$color$fontSize$fontWeight(v,18,B.x),k,k,k,k,k,k),B.X],p)
+if(J.bN(l.d)){s=8*$.F.j()/100
+q.push(A.az(new A.V(new A.B(s,s,s,s),A.p(A.a([A.t(B.dj,B.B.i(0.5),k,k,64),B.X,A.c("No templates yet",k,k,k,k,k,k,k,k,k,A.r().$3$color$fontSize$fontWeight(B.B,16,B.u),k,k,k,k,k,k),B.a6,A.c("Create your first barcode template",k,k,k,k,k,k,k,k,k,A.r().$2$color$fontSize(B.B.i(0.7),14),k,k,k,k,k,k)],p),B.f,k,B.b,B.c,0,B.k),k),k,k))}else q.push(A.Pg(k,B.I,D.drK,new C.dcM(l,w,u,v,j),J.aC(l.d),k,B.dM,!0))
+t=A.i(k,A.bc(A.p(q,B.v,k,B.b,B.c,0,B.k),k,B.I,new A.B(t,t,t,t),k,k,B.Z),B.e,x,k,k,k,k,k,k,k,k,k,k)}return A.eo(k,t,7,k,new C.dcN(d),!0,"Barcode Template Designer")},
+a5N(d,e,f,g,h){var x,w,v,u=null
+if(f)x=$.M?B.L:B.N
 else x=B.h
-w=A.f(10)
-v=A.L(A.F().j(0.2),-1,B.n,1)
-return A.i(u,A.p(A.a([A.c(d,u,u,u,u,u,u,u,u,u,A.bc().$3$color$fontSize$fontWeight(h,13,B.x),u,u,u,u,u,u),B.aJ,A.c(e,u,u,u,u,u,u,u,u,u,A.r().$2$color$fontSize(B.C,11),u,u,u,u,u,u)],y.p),B.u,u,B.b,B.F,0,B.k),B.e,u,u,new A.k(x,u,v,w,u,u,u,B.j),u,u,u,u,B.dh,u,u,u)},
-anZ(d,e){var x=null,w=A.F().j(0.12),v=A.f(6),u=A.L(A.F().j(0.2),-1,B.n,1)
-return A.i(x,A.c(d,x,x,x,x,x,x,x,x,x,A.r().$3$color$fontSize$fontWeight(A.F(),10,B.v),x,x,x,x,x,x),B.e,x,x,new A.k(w,x,u,v,x,x,x,B.j),x,x,x,x,B.ek,x,x,x)}}
-C.aTm.prototype={
-R(){var x=$.at()
-return new C.aTn(new A.c9(null,y.w),new A.ah(B.a3,x),new A.ah(new A.aZ("50",B.aA,B.au),x),new A.ah(new A.aZ("30",B.aA,B.au),x),A.a(["CODE128","QR","EAN13","CODE39"],y.s))},
-K9(d){return this.d.$1(d)}}
-C.aTn.prototype={
+w=A.h(10)
+v=A.L(A.D().i(0.2),-1,B.n,1)
+return A.i(u,A.p(A.a([A.c(d,u,u,u,u,u,u,u,u,u,A.aO().$3$color$fontSize$fontWeight(h,13,B.x),u,u,u,u,u,u),B.aM,A.c(e,u,u,u,u,u,u,u,u,u,A.r().$2$color$fontSize(B.B,11),u,u,u,u,u,u)],y.p),B.v,u,B.b,B.E,0,B.k),B.e,u,u,new A.j(x,u,v,w,u,u,u,B.i),u,u,u,u,B.d3,u,u,u)},
+ap4(d,e){var x=null,w=A.D().i(0.12),v=A.h(6),u=A.L(A.D().i(0.2),-1,B.n,1)
+return A.i(x,A.c(d,x,x,x,x,x,x,x,x,x,A.r().$3$color$fontSize$fontWeight(A.D(),10,B.u),x,x,x,x,x,x),B.e,x,x,new A.j(w,x,u,v,x,x,x,B.i),x,x,x,x,B.e0,x,x,x)}}
+C.aU1.prototype={
+R(){var x=$.au()
+return new C.aU2(new A.c8(null,y.w),new A.ah(B.a2,x),new A.ah(new A.b1("50",B.aG,B.av),x),new A.ah(new A.b1("30",B.aG,B.av),x),A.a(["CODE128","QR","EAN13","CODE39"],y.s))},
+Kv(d){return this.d.$1(d)}}
+C.aU2.prototype={
 a_(){this.a4()
-this.a4I()},
-a4I(){var x=0,w=A.D(y.H),v,u=2,t=[],s=this,r,q,p,o,n,m
-var $async$a4I=A.z(function(d,e){if(d===1){t.push(e)
+this.a5D()},
+a5D(){var x=0,w=A.A(y.H),v,u=2,t=[],s=this,r,q,p,o,n,m
+var $async$a5D=A.w(function(d,e){if(d===1){t.push(e)
 x=u}for(;;)switch(x){case 0:u=4
 p=s.c
 p.toString
-o=A.eh(p)
-if(o==null){p=$.c3().a
+o=A.ee(p)
+if(o==null){p=$.c1().a
 o=p==null?null:p.a}r=o
 if(r==null){x=1
-break}p=$.ao().b
+break}p=$.aj().b
 p===$&&A.d()
 x=7
-return A.l(p.F("organizations").Z(0,"currency_code").E("id",r).bS(),$async$a4I)
+return A.l(p.F("organizations").Y(0,"currency_code").C("id",r).bJ(),$async$a5D)
 case 7:q=e
 p=q
-if((p==null?null:J.h(p,"currency_code"))!=null&&s.c!=null)s.m(new C.daT(s,q))
+if((p==null?null:J.f(p,"currency_code"))!=null&&s.c!=null)s.m(new C.dcO(s,q))
 u=2
 x=6
 break
@@ -190,97 +190,97 @@ x=6
 break
 case 3:x=2
 break
-case 6:case 1:return A.B(v,w)
-case 2:return A.A(t.at(-1),w)}})
-return A.C($async$a4I,w)},
-anx(){var x=0,w=A.D(y.H),v,u=this,t,s,r,q,p,o,n
-var $async$anx=A.z(function(d,e){if(d===1)return A.A(e,w)
-for(;;)switch(x){case 0:if(!u.d.gav().eF()){x=1
+case 6:case 1:return A.y(v,w)
+case 2:return A.x(t.at(-1),w)}})
+return A.z($async$a5D,w)},
+aoD(){var x=0,w=A.A(y.H),v,u=this,t,s,r,q,p,o,n
+var $async$aoD=A.w(function(d,e){if(d===1)return A.x(e,w)
+for(;;)switch(x){case 0:if(!u.d.gav().ez()){x=1
 break}try{r=u.e.a.a
 q=u.x
-p=A.bz(u.f.a.a)
+p=A.bA(u.f.a.a)
 if(p==null)p=50
-o=A.bz(u.r.a.a)
+o=A.bA(u.r.a.a)
 if(o==null)o=30
 t=A.e(["template_name",r,"template_type",q,"width_mm",p,"height_mm",o,"barcode_type",u.w,"show_sku",u.y,"show_product_name",u.z,"show_price",u.Q,"show_barcode",u.as,"is_default",u.at],y.N,y.K)
-u.a.K9(t)}catch(m){s=A.T(m)
+u.a.Kv(t)}catch(m){s=A.T(m)
 r=u.c
-if(r!=null)A.eM(r,"Error saving template: "+A.n(s))}case 1:return A.B(v,w)}})
-return A.C($async$anx,w)},
-D(a5){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2=this,a3=null,a4=A.u(a5).ax.a===B.r
+if(r!=null)A.eN(r,"Error saving template: "+A.n(s))}case 1:return A.y(v,w)}})
+return A.z($async$aoD,w)},
+E(a5){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2=this,a3=null,a4=A.q(a5).ax.a===B.o
 if(a4)x=B.h
-else x=$.N?B.w:B.ag
-w=a4?B.h.j(0.05):B.bg
-v=A.q(B.eD,A.F(),a3,a3,28)
+else x=$.M?B.w:B.ag
+w=a4?B.h.i(0.05):B.bm
+v=A.t(B.eW,A.D(),a3,a3,28)
 u=a2.a.c==null?"New Barcode Template":"Edit Template"
 u=A.v(A.c(u,a3,a3,a3,a3,a3,a3,a3,a3,a3,A.r().$3$color$fontSize$fontWeight(x,20,B.x),a3,a3,a3,a3,a3,a3),1)
 t=a2.a.e
 s=y.p
-t=A.m(A.a([v,B.a0,u,A.aq(!1,A.f(8),!0,new A.U(B.aW,A.q(B.bp,B.C,a3,a3,20),a3),a3,!0,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,t,a3,a3,a3,a3,a3,a3,a3)],s),B.f,B.b,B.c,0,a3,a3)
-u=A.bG(!1,a3,a2.e,A.aQ(a3,new A.ar(4,A.f(10),B.aX),a3,a3,a3,a3,a3,a3,!0,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,"e.g., Standard Product Label",a3,a3,a3,a3,a3,a3,a3,a3,"Template Name *",!0,!0,!1,a3,A.q(B.fs,B.C,a3,a3,18),a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3),a3,!1,a3,a3,a3,a3,a3,a3,1,a3,!1,a3,a3,a3,a3,a3,!1,a3,a3,B.a_,B.a1,a3,new C.db0())
+t=A.m(A.a([v,B.a1,u,A.aq(!1,A.h(8),!0,new A.V(B.b0,A.t(B.bu,B.B,a3,a3,20),a3),a3,!0,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,t,a3,a3,a3,a3,a3,a3,a3)],s),B.f,B.b,B.c,0,a3,a3)
+u=A.bJ(!1,a3,a2.e,A.aY(a3,new A.av(4,A.h(10),B.bv),a3,a3,a3,a3,a3,a3,!0,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,"e.g., Standard Product Label",a3,a3,a3,a3,a3,a3,a3,a3,"Template Name *",!0,!0,!1,a3,A.t(B.fs,B.B,a3,a3,18),a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3),a3,!1,a3,a3,a3,a3,a3,a3,1,a3,!1,a3,a3,a3,a3,a3,!1,a3,a3,B.a_,B.a0,a3,new C.dcW())
 v=A.c("Template Type",a3,a3,a3,a3,a3,a3,a3,a3,a3,A.r().$3$color$fontSize$fontWeight(x,13,B.x),a3,a3,a3,a3,a3,a3)
 r=y.N
-q=A.aeS(new C.db1(a2),D.cnE,A.fl([a2.x],r),a3,r)
+q=A.anO(new C.dcX(a2),D.cnB,A.fn([a2.x],r),r)
 p=A.c("Dimensions (mm)",a3,a3,a3,a3,a3,a3,a3,a3,a3,A.r().$3$color$fontSize$fontWeight(x,13,B.x),a3,a3,a3,a3,a3,a3)
 o=a2.f
 n=a2.r
-m=A.m(A.a([A.v(A.bG(!1,a3,o,A.aQ(a3,new A.ar(4,A.f(10),B.aX),a3,a3,a3,a3,a3,a3,!0,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,"Width",!0,!0,!1,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,"mm",a3),a3,!1,a3,a3,a3,a3,B.bd,a3,1,a3,!1,a3,a3,a3,a3,a3,!1,a3,a3,B.a_,B.a1,a3,new C.db2()),1),B.a0,A.c("x",a3,a3,a3,a3,a3,a3,a3,a3,a3,A.r().$3$color$fontSize$fontWeight(B.C,24,B.x),a3,a3,a3,a3,a3,a3),B.a0,A.v(A.bG(!1,a3,n,A.aQ(a3,new A.ar(4,A.f(10),B.aX),a3,a3,a3,a3,a3,a3,!0,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,"Height",!0,!0,!1,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,"mm",a3),a3,!1,a3,a3,a3,a3,B.bd,a3,1,a3,!1,a3,a3,a3,a3,a3,!1,a3,a3,B.a_,B.a1,a3,new C.db3()),1)],s),B.f,B.b,B.c,0,a3,a3)
+m=A.m(A.a([A.v(A.bJ(!1,a3,o,A.aY(a3,new A.av(4,A.h(10),B.bv),a3,a3,a3,a3,a3,a3,!0,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,"Width",!0,!0,!1,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,"mm",a3),a3,!1,a3,a3,a3,a3,B.bc,a3,1,a3,!1,a3,a3,a3,a3,a3,!1,a3,a3,B.a_,B.a0,a3,new C.dcY()),1),B.a1,A.c("x",a3,a3,a3,a3,a3,a3,a3,a3,a3,A.r().$3$color$fontSize$fontWeight(B.B,24,B.x),a3,a3,a3,a3,a3,a3),B.a1,A.v(A.bJ(!1,a3,n,A.aY(a3,new A.av(4,A.h(10),B.bv),a3,a3,a3,a3,a3,a3,!0,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,"Height",!0,!0,!1,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,"mm",a3),a3,!1,a3,a3,a3,a3,B.bc,a3,1,a3,!1,a3,a3,a3,a3,a3,!1,a3,a3,B.a_,B.a0,a3,new C.dcZ()),1)],s),B.f,B.b,B.c,0,a3,a3)
 l=A.c("Barcode Type",a3,a3,a3,a3,a3,a3,a3,a3,a3,A.r().$3$color$fontSize$fontWeight(x,13,B.x),a3,a3,a3,a3,a3,a3)
 k=a2.w
-j=A.aQ(a3,new A.ar(4,A.f(10),B.aX),a3,a3,a3,a3,a3,a3,!0,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,!0,!0,!1,a3,A.q(B.eD,B.C,a3,a3,18),a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3)
+j=A.aY(a3,new A.av(4,A.h(10),B.bv),a3,a3,a3,a3,a3,a3,!0,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,!0,!0,!1,a3,A.t(B.eW,B.B,a3,a3,18),a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3)
 i=a2.ay
-h=A.aj(i).k("Y<1,aY<G>>")
-i=A.a8(new A.Y(i,new C.db4(),h),h.k("aH.E"))
-r=A.cT(j,a3,a3,a3,a3,!1,i,a3,new C.db5(a2),a3,a3,k,r)
+h=A.ai(i).k("Y<1,aZ<E>>")
+i=A.a7(new A.Y(i,new C.dd_(),h),h.k("aG.E"))
+r=A.cT(j,a3,a3,a3,a3,!1,i,a3,new C.dd0(a2),a3,a3,k,r)
 k=A.c("Fields to Display",a3,a3,a3,a3,a3,a3,a3,a3,a3,A.r().$3$color$fontSize$fontWeight(x,13,B.x),a3,a3,a3,a3,a3,a3)
 j=a2.as
 i=A.c("Show Barcode/QR",a3,a3,a3,a3,a3,a3,a3,a3,a3,A.r().$2$color$fontSize(x,14),a3,a3,a3,a3,a3,a3)
-j=A.f4(A.F(),a3,a3,a3,!0,a3,new C.db6(a2),a3,a3,a3,a3,i,j)
+j=A.Lv(A.D(),a3,a3,a3,!0,a3,new C.dd1(a2),a3,a3,a3,a3,i,j)
 i=a2.y
 h=A.c("Show SKU Code",a3,a3,a3,a3,a3,a3,a3,a3,a3,A.r().$2$color$fontSize(x,14),a3,a3,a3,a3,a3,a3)
-i=A.f4(A.F(),a3,a3,a3,!0,a3,new C.db7(a2),a3,a3,a3,a3,h,i)
+i=A.Lv(A.D(),a3,a3,a3,!0,a3,new C.dd2(a2),a3,a3,a3,a3,h,i)
 h=a2.z
 g=A.c("Show Product Name",a3,a3,a3,a3,a3,a3,a3,a3,a3,A.r().$2$color$fontSize(x,14),a3,a3,a3,a3,a3,a3)
-h=A.f4(A.F(),a3,a3,a3,!0,a3,new C.db8(a2),a3,a3,a3,a3,g,h)
+h=A.Lv(A.D(),a3,a3,a3,!0,a3,new C.dd3(a2),a3,a3,a3,a3,g,h)
 g=a2.Q
 f=A.c("Show Price",a3,a3,a3,a3,a3,a3,a3,a3,a3,A.r().$2$color$fontSize(x,14),a3,a3,a3,a3,a3,a3)
-g=A.f4(A.F(),a3,a3,a3,!0,a3,new C.db9(a2),a3,a3,a3,a3,f,g)
+g=A.Lv(A.D(),a3,a3,a3,!0,a3,new C.dd4(a2),a3,a3,a3,a3,f,g)
 f=a2.at
-e=A.c("Set as Default Template",a3,a3,a3,a3,a3,a3,a3,a3,a3,A.r().$3$color$fontSize$fontWeight(x,14,B.v),a3,a3,a3,a3,a3,a3)
-d=A.c("Use by default for new products",a3,a3,a3,a3,a3,a3,a3,a3,a3,A.r().$2$color$fontSize(B.C,12),a3,a3,a3,a3,a3,a3)
-f=A.v(A.b8(A.p(A.a([u,B.b6,v,B.a6,q,B.b6,p,B.a6,m,B.b6,l,B.a6,r,B.b6,k,B.a6,j,i,h,g,B.b6,A.f4(A.F(),a3,a3,B.fr,a3,a3,new C.dba(a2),a3,a3,d,a3,e,f)],s),B.u,a3,B.b,B.c,0,B.k),a3,B.I,a3,a3,a3,B.Z),1)
+e=A.c("Set as Default Template",a3,a3,a3,a3,a3,a3,a3,a3,a3,A.r().$3$color$fontSize$fontWeight(x,14,B.u),a3,a3,a3,a3,a3,a3)
+d=A.c("Use by default for new products",a3,a3,a3,a3,a3,a3,a3,a3,a3,A.r().$2$color$fontSize(B.B,12),a3,a3,a3,a3,a3,a3)
+f=A.v(A.bc(A.p(A.a([u,B.aY,v,B.a6,q,B.aY,p,B.a6,m,B.aY,l,B.a6,r,B.aY,k,B.a6,j,i,h,g,B.aY,A.Lv(A.D(),a3,a3,B.hh,a3,a3,new C.dd5(a2),a3,a3,d,a3,e,f)],s),B.v,a3,B.b,B.c,0,B.k),a3,B.I,a3,a3,a3,B.Z),1)
 e=a2.a.e
-d=A.f(10)
-g=A.f(10)
+d=A.h(10)
+g=A.h(10)
 h=A.L(w,-1,B.n,1)
-e=A.aq(!1,d,!0,A.i(a3,A.c("Cancel",a3,a3,a3,a3,a3,a3,a3,a3,a3,A.r().$2$color$fontWeight(B.C,B.v),a3,a3,a3,a3,a3,a3),B.e,a3,a3,new A.k(a3,a3,h,g,a3,a3,a3,B.j),a3,a3,a3,a3,B.h3,a3,a3,a3),a3,!0,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,e,a3,a3,a3,a3,a3,a3,a3)
-g=A.f(10)
-h=A.a([A.F(),A.dG()],y.O)
-d=A.f(10)
+e=A.aq(!1,d,!0,A.i(a3,A.c("Cancel",a3,a3,a3,a3,a3,a3,a3,a3,a3,A.r().$2$color$fontWeight(B.B,B.u),a3,a3,a3,a3,a3,a3),B.e,a3,a3,new A.j(a3,a3,h,g,a3,a3,a3,B.i),a3,a3,a3,a3,B.h1,a3,a3,a3),a3,!0,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,e,a3,a3,a3,a3,a3,a3,a3)
+g=A.h(10)
+h=A.a([A.D(),A.dD()],y.O)
+d=A.h(10)
 i=y.V
-j=A.a([new A.aI(0,B.a7,A.F().j(0.3),B.bE,8)],i)
+j=A.a([new A.aI(0,B.a7,A.D().i(0.3),B.bK,8)],i)
 v=a2.a.c==null?"Create":"Update"
-h=A.v(A.p(A.a([t,B.b1,f,B.b1,A.m(A.a([e,B.a0,A.aq(!1,g,!0,A.i(a3,A.m(A.a([B.tX,B.S,A.c(v,a3,a3,a3,a3,a3,a3,a3,a3,a3,A.r().$2$color$fontWeight(B.h,B.v),a3,a3,a3,a3,a3,a3)],s),B.f,B.b,B.F,0,a3,a3),B.e,a3,a3,new A.k(a3,a3,a3,d,j,new A.aP(B.aP,B.bb,B.a8,h,a3,a3),a3,B.j),a3,a3,a3,a3,B.h3,a3,a3,a3),a3,!0,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a2.gbx3(),a3,a3,a3,a3,a3,a3,a3)],s),B.f,B.d2,B.c,0,a3,a3)],s),B.dM,a3,B.b,B.c,0,B.k),2)
+h=A.v(A.p(A.a([t,B.aV,f,B.aV,A.m(A.a([e,B.a1,A.aq(!1,g,!0,A.i(a3,A.m(A.a([B.u5,B.P,A.c(v,a3,a3,a3,a3,a3,a3,a3,a3,a3,A.r().$2$color$fontWeight(B.h,B.u),a3,a3,a3,a3,a3,a3)],s),B.f,B.b,B.E,0,a3,a3),B.e,a3,a3,new A.j(a3,a3,a3,d,j,new A.aT(B.aU,B.be,B.ad,h,a3,a3),a3,B.i),a3,a3,a3,a3,B.h1,a3,a3,a3),a3,!0,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a3,a2.gbzi(),a3,a3,a3,a3,a3,a3,a3)],s),B.f,B.dx,B.c,0,a3,a3)],s),B.dS,a3,B.b,B.c,0,B.k),2)
 j=A.c("Preview",a3,a3,a3,a3,a3,a3,a3,a3,a3,A.r().$3$color$fontSize$fontWeight(x,16,B.x),a3,a3,a3,a3,a3,a3)
-if(a4)v=$.N?B.L:B.N
-else v=B.cE
-u=A.f(14)
+if(a4)v=$.M?B.L:B.N
+else v=B.cI
+u=A.h(14)
 t=A.L(w,-1,B.n,1)
-a0=A.bz(o.a.a)
+a0=A.bA(o.a.a)
 if(a0==null)a0=50
-a1=A.bz(n.a.a)
+a1=A.bA(n.a.a)
 if(a1==null)a1=30
-r=A.f(4)
+r=A.h(4)
 q=A.L(B.w,-1,B.n,2)
-i=A.a([new A.aI(0,B.a7,B.w.j(0.1),B.ch,8)],i)
+i=A.a([new A.aI(0,B.a7,B.w.i(0.1),B.ct,8)],i)
 p=A.a([],s)
-if(a2.as){o=A.f(2)
+if(a2.as){o=A.h(2)
 n=a2.w==="QR"?"|||":"|||||||"
-B.m.A(p,A.a([A.i(a3,A.aA(A.c(n,a3,a3,a3,a3,a3,a3,a3,a3,a3,A.bc().$2$color$fontSize(B.h,18),a3,a3,a3,a3,a3,a3),a3,a3),B.e,a3,a3,new A.k(B.w,a3,a3,o,a3,a3,a3,B.j),a3,40,a3,a3,a3,a3,a3,a3),B.cs],s))}if(a2.y)B.m.A(p,A.a([A.c("RNG-2025-0001",a3,a3,a3,a3,a3,a3,a3,a3,a3,A.bc().$3$color$fontSize$fontWeight(B.w,10,B.x),B.ar,a3,a3,a3,a3,a3),B.aJ],s))
-if(a2.z)B.m.A(p,A.a([A.c("Diamond Ring",a3,a3,1,B.ah,a3,a3,a3,a3,a3,A.r().$2$color$fontSize(B.c7,9),B.ar,a3,a3,a3,a3,a3),B.aJ],s))
-if(a2.Q)B.m.A(p,A.a([A.c(A.dc(a2.ax)+" 25,000",a3,a3,a3,a3,a3,a3,a3,a3,a3,A.bc().$3$color$fontSize$fontWeight(B.w,11,B.bO),B.ar,a3,a3,a3,a3,a3)],s))
-return A.LS(a3,A.m(A.a([h,B.J5,A.v(A.p(A.a([j,B.X,A.v(A.i(a3,A.aA(A.i(a3,A.p(p,B.f,a3,B.a9,B.c,0,B.k),B.e,a3,a3,new A.k(B.h,a3,q,r,i,a3,a3,B.j),a3,a1*3,a3,a3,B.aW,a3,a3,a0*3),a3,a3),B.e,a3,a3,new A.k(v,a3,t,u,a3,a3,a3,B.j),a3,a3,a3,a3,B.cg,a3,a3,a3),1)],s),B.dM,a3,B.b,B.c,0,B.k),1)],s),B.u,B.b,B.c,0,a3,a3),a2.d)},
-p(){var x=this,w=x.e,v=w.K$=$.at()
+B.l.v(p,A.a([A.i(a3,A.az(A.c(n,a3,a3,a3,a3,a3,a3,a3,a3,a3,A.aO().$2$color$fontSize(B.h,18),a3,a3,a3,a3,a3,a3),a3,a3),B.e,a3,a3,new A.j(B.w,a3,a3,o,a3,a3,a3,B.i),a3,40,a3,a3,a3,a3,a3,a3),B.cb],s))}if(a2.y)B.l.v(p,A.a([A.c("RNG-2025-0001",a3,a3,a3,a3,a3,a3,a3,a3,a3,A.aO().$3$color$fontSize$fontWeight(B.w,10,B.x),B.ar,a3,a3,a3,a3,a3),B.aM],s))
+if(a2.z)B.l.v(p,A.a([A.c("Diamond Ring",a3,a3,1,B.aa,a3,a3,a3,a3,a3,A.r().$2$color$fontSize(B.bU,9),B.ar,a3,a3,a3,a3,a3),B.aM],s))
+if(a2.Q)B.l.v(p,A.a([A.c(A.d9(a2.ax)+" 25,000",a3,a3,a3,a3,a3,a3,a3,a3,a3,A.aO().$3$color$fontSize$fontWeight(B.w,11,B.bM),B.ar,a3,a3,a3,a3,a3)],s))
+return A.LN(a3,A.m(A.a([h,B.Jg,A.v(A.p(A.a([j,B.X,A.v(A.i(a3,A.az(A.i(a3,A.p(p,B.f,a3,B.ab,B.c,0,B.k),B.e,a3,a3,new A.j(B.h,a3,q,r,i,a3,a3,B.i),a3,a1*3,a3,a3,B.b0,a3,a3,a0*3),a3,a3),B.e,a3,a3,new A.j(v,a3,t,u,a3,a3,a3,B.i),a3,a3,a3,a3,B.cf,a3,a3,a3),1)],s),B.dS,a3,B.b,B.c,0,B.k),1)],s),B.v,B.b,B.c,0,a3,a3),a2.d)},
+p(){var x=this,w=x.e,v=w.K$=$.au()
 w.H$=0
 w=x.f
 w.K$=v
@@ -289,154 +289,154 @@ w=x.r
 w.K$=v
 w.H$=0
 x.a5()}}
-var z=a.updateTypes(["b3<~>()"])
-C.daI.prototype={
+var z=a.updateTypes(["b4<~>()"])
+C.dcD.prototype={
 $0(){return this.a.e=!0},
 $S:0}
-C.daJ.prototype={
+C.dcE.prototype={
 $0(){var x=this.a
 x.d=A.a([],y.t)
 x.e=!1},
 $S:0}
-C.daK.prototype={
+C.dcF.prototype={
 $0(){var x=this.a
 x.d=this.b
 x.e=!1},
 $S:0}
-C.daL.prototype={
+C.dcG.prototype={
 $0(){return this.a.e=!1},
 $S:0}
-C.daO.prototype={
-$1(d){var x=null,w=A.f(14),v=this.b
-return A.cX(x,x,A.i(x,new C.aTm(v,new C.daM(this.a,d,v),new C.daN(d),x),B.e,x,D.aEl,x,x,x,x,x,B.hm,x,x,x),x,x,x,x,B.bY,x,new A.aN(w,B.z),x)},
-$S:53}
-C.daM.prototype={
+C.dcJ.prototype={
+$1(d){var x=null,w=A.h(14),v=this.b
+return A.cX(x,x,A.i(x,new C.aU1(v,new C.dcH(this.a,d,v),new C.dcI(d),x),B.e,x,D.aEv,x,x,x,x,x,B.hx,x,x,x),x,x,x,x,B.bV,x,new A.aN(w,B.y),x)},
+$S:52}
+C.dcH.prototype={
 $1(d){var x=this.b
-A.Z(x,!1).N(null)
-this.a.LM()
-A.N3(x,this.c==null?"Template created":"Template updated",B.J)},
-$S:32}
-C.daN.prototype={
-$0(){A.Z(this.a,!1).N(null)
+A.Z(x,!1).M(null)
+this.a.M8()
+A.N4(x,this.c==null?"Template created":"Template updated",B.J)},
+$S:35}
+C.dcI.prototype={
+$0(){A.Z(this.a,!1).M(null)
 return null},
 $S:0}
-C.daS.prototype={
-$1(d){return A.eR(this.a,d,7)},
+C.dcN.prototype={
+$1(d){return A.eU(this.a,d,7)},
 $S:11}
-C.daQ.prototype={
-$0(){return this.a.cso()},
+C.dcL.prototype={
+$0(){return this.a.cw0()},
 $S:0}
-C.daR.prototype={
-$2(d,e){var x,w,v,u,t,s,r=this,q=null,p=r.a,o=J.h(p.d,e),n=J.R(o),m=J.K(n.h(o,"is_default"),!0),l=A.f(14),k=A.L(m?A.F().j(0.5):r.c,-1,B.n,1),j=A.f(14),i=n.h(o,"template_name")
+C.dcM.prototype={
+$2(d,e){var x,w,v,u,t,s,r=this,q=null,p=r.a,o=J.f(p.d,e),n=J.O(o),m=J.J(n.h(o,"is_default"),!0),l=A.h(14),k=A.L(m?A.D().i(0.5):r.c,-1,B.n,1),j=A.h(14),i=n.h(o,"template_name")
 if(i==null)i=""
 x=y.p
-i=A.a([A.v(A.c(i,q,q,1,B.ah,q,q,q,q,q,A.r().$3$color$fontSize$fontWeight(r.d,14,B.x),q,q,q,q,q,q),1)],x)
-if(m){w=A.F().j(0.12)
-v=A.f(6)
-u=A.L(A.F().j(0.2),-1,B.n,1)
-i.push(A.i(q,A.c("DEFAULT",q,q,q,q,q,q,q,q,q,A.r().$3$color$fontSize$fontWeight(A.F(),9,B.x),q,q,q,q,q,q),B.e,q,q,new A.k(w,q,u,v,q,q,q,B.j),q,q,q,q,B.fm,q,q,q))}i=A.m(i,B.f,B.b,B.c,0,q,q)
-w=A.m(A.a([A.q(B.wN,B.C,q,q,14),B.aS,A.c(A.n(n.h(o,"width_mm"))+"x"+A.n(n.h(o,"height_mm"))+" mm",q,q,q,q,q,q,q,q,q,A.r().$2$color$fontSize(B.C,13),q,q,q,q,q,q)],x),B.f,B.b,B.c,0,q,q)
-v=B.jH.j(0.12)
-u=A.f(6)
-t=A.L(B.jH.j(0.2),-1,B.n,1)
+i=A.a([A.v(A.c(i,q,q,1,B.aa,q,q,q,q,q,A.r().$3$color$fontSize$fontWeight(r.d,14,B.x),q,q,q,q,q,q),1)],x)
+if(m){w=A.D().i(0.12)
+v=A.h(6)
+u=A.L(A.D().i(0.2),-1,B.n,1)
+i.push(A.i(q,A.c("DEFAULT",q,q,q,q,q,q,q,q,q,A.r().$3$color$fontSize$fontWeight(A.D(),9,B.x),q,q,q,q,q,q),B.e,q,q,new A.j(w,q,u,v,q,q,q,B.i),q,q,q,q,B.dG,q,q,q))}i=A.m(i,B.f,B.b,B.c,0,q,q)
+w=A.m(A.a([A.t(B.wV,B.B,q,q,14),B.aL,A.c(A.n(n.h(o,"width_mm"))+"x"+A.n(n.h(o,"height_mm"))+" mm",q,q,q,q,q,q,q,q,q,A.r().$2$color$fontSize(B.B,13),q,q,q,q,q,q)],x),B.f,B.b,B.c,0,q,q)
+v=B.jU.i(0.12)
+u=A.h(6)
+t=A.L(B.jU.i(0.2),-1,B.n,1)
 s=n.h(o,"barcode_type")
 if(s==null)s="CODE128"
-u=A.i(q,A.c(s,q,q,q,q,q,q,q,q,q,A.r().$3$color$fontSize$fontWeight(B.jH,11,B.v),q,q,q,q,q,q),B.e,q,q,new A.k(v,q,t,u,q,q,q,B.j),q,q,q,q,B.cX,q,q,q)
+u=A.i(q,A.c(s,q,q,q,q,q,q,q,q,q,A.r().$3$color$fontSize$fontWeight(B.jU,11,B.u),q,q,q,q,q,q),B.e,q,q,new A.j(v,q,t,u,q,q,q,B.i),q,q,q,q,B.d5,q,q,q)
 t=A.a([],x)
-if(J.K(n.h(o,"show_sku"),!0))t.push(p.anZ("SKU",r.e))
-if(J.K(n.h(o,"show_product_name"),!0))t.push(p.anZ("Name",r.e))
-if(J.K(n.h(o,"show_price"),!0))t.push(p.anZ("Price",r.e))
-return A.i(q,A.aq(!1,j,!0,new A.U(B.an,A.p(A.a([i,B.aj,w,B.a6,u,B.bz,A.cq(B.ax,t,B.bC,B.ax,0,6)],x),B.u,q,B.b,B.c,0,B.k),q),q,!0,q,q,q,q,q,q,q,q,q,q,q,new C.daP(p,o),q,q,q,q,q,q,q),B.e,q,q,new A.k(r.b,q,k,l,q,q,q,B.j),q,q,q,q,q,q,q,q)},
-$S:31}
-C.daP.prototype={
-$0(){return this.a.b1L(this.b)},
+if(J.J(n.h(o,"show_sku"),!0))t.push(p.ap4("SKU",r.e))
+if(J.J(n.h(o,"show_product_name"),!0))t.push(p.ap4("Name",r.e))
+if(J.J(n.h(o,"show_price"),!0))t.push(p.ap4("Price",r.e))
+return A.i(q,A.aq(!1,j,!0,new A.V(B.an,A.p(A.a([i,B.a9,w,B.a6,u,B.bn,A.cm(B.ap,t,B.bA,B.ap,0,6)],x),B.v,q,B.b,B.c,0,B.k),q),q,!0,q,q,q,q,q,q,q,q,q,q,q,new C.dcK(p,o),q,q,q,q,q,q,q),B.e,q,q,new A.j(r.b,q,k,l,q,q,q,B.i),q,q,q,q,q,q,q,q)},
+$S:32}
+C.dcK.prototype={
+$0(){return this.a.b3y(this.b)},
 $S:0}
-C.daT.prototype={
+C.dcO.prototype={
 $0(){var x=this.b
 x.toString
-this.a.ax=A.ac(J.h(x,"currency_code"))},
+this.a.ax=A.aa(J.f(x,"currency_code"))},
 $S:0}
-C.db0.prototype={
+C.dcW.prototype={
 $1(d){return(d==null?null:d.length===0)===!0?"Required":null},
-$S:7}
-C.db1.prototype={
+$S:8}
+C.dcX.prototype={
 $1(d){var x=this.a
-return x.m(new C.db_(x,d))},
-$S:194}
-C.db_.prototype={
+return x.m(new C.dcV(x,d))},
+$S:228}
+C.dcV.prototype={
 $0(){var x=this.b
-return this.a.x=x.ga7(x)},
+return this.a.x=x.ga8(x)},
 $S:0}
-C.db2.prototype={
-$1(d){return A.bz(d==null?"":d)==null?"Invalid":null},
-$S:7}
-C.db3.prototype={
-$1(d){return A.bz(d==null?"":d)==null?"Invalid":null},
-$S:7}
-C.db4.prototype={
+C.dcY.prototype={
+$1(d){return A.bA(d==null?"":d)==null?"Invalid":null},
+$S:8}
+C.dcZ.prototype={
+$1(d){return A.bA(d==null?"":d)==null?"Invalid":null},
+$S:8}
+C.dd_.prototype={
 $1(d){var x=null
-return A.cE(A.c(d,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x),!0,d,y.N)},
-$S:29}
-C.db5.prototype={
+return A.cr(A.c(d,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x),!0,d,y.N)},
+$S:30}
+C.dd0.prototype={
 $1(d){var x=this.a
-return x.m(new C.daZ(x,d))},
+return x.m(new C.dcU(x,d))},
 $S:5}
-C.daZ.prototype={
+C.dcU.prototype={
 $0(){var x=this.b
 x.toString
 return this.a.w=x},
 $S:0}
-C.db6.prototype={
+C.dd1.prototype={
 $1(d){var x=this.a
-return x.m(new C.daY(x,d))},
+return x.m(new C.dcT(x,d))},
 $S:14}
-C.daY.prototype={
+C.dcT.prototype={
 $0(){return this.a.as=this.b!==!1},
 $S:0}
-C.db7.prototype={
+C.dd2.prototype={
 $1(d){var x=this.a
-return x.m(new C.daX(x,d))},
+return x.m(new C.dcS(x,d))},
 $S:14}
-C.daX.prototype={
+C.dcS.prototype={
 $0(){return this.a.y=this.b!==!1},
 $S:0}
-C.db8.prototype={
+C.dd3.prototype={
 $1(d){var x=this.a
-return x.m(new C.daW(x,d))},
+return x.m(new C.dcR(x,d))},
 $S:14}
-C.daW.prototype={
+C.dcR.prototype={
 $0(){return this.a.z=this.b!==!1},
 $S:0}
-C.db9.prototype={
+C.dd4.prototype={
 $1(d){var x=this.a
-return x.m(new C.daV(x,d))},
+return x.m(new C.dcQ(x,d))},
 $S:14}
-C.daV.prototype={
+C.dcQ.prototype={
 $0(){return this.a.Q=this.b!==!1},
 $S:0}
-C.dba.prototype={
+C.dd5.prototype={
 $1(d){var x=this.a
-return x.m(new C.daU(x,d))},
+return x.m(new C.dcP(x,d))},
 $S:14}
-C.daU.prototype={
+C.dcP.prototype={
 $0(){return this.a.at=this.b===!0},
 $S:0};(function installTearOffs(){var x=a._instance_0u
-x(C.aTn.prototype,"gbx3","anx",0)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
-x(A.am,[C.aaE,C.aTm])
-x(A.al,[C.bxo,C.aTn])
-x(A.TM,[C.daI,C.daJ,C.daK,C.daL,C.daN,C.daQ,C.daP,C.daT,C.db_,C.daZ,C.daY,C.daX,C.daW,C.daV,C.daU])
-x(A.QS,[C.daO,C.daM,C.daS,C.db0,C.db1,C.db2,C.db3,C.db4,C.db5,C.db6,C.db7,C.db8,C.db9,C.dba])
-w(C.daR,A.TN)})()
-A.Ys(b.typeUniverse,JSON.parse('{"aTm":{"am":[],"I":[],"o":[]},"aaE":{"am":[],"I":[],"o":[]},"bxo":{"al":["aaE"],"o":[]},"aTn":{"al":["aTm"],"o":[]}}'))
-var y=(function rtii(){var x=A.b0
-return{n:x("ML<G>"),V:x("a9<aI>"),O:x("a9<ad>"),t:x("a9<au<G,@>>"),s:x("a9<G>"),p:x("a9<I>"),w:x("c9<a4p>"),K:x("aG"),N:x("G"),z:x("@"),H:x("~")}})();(function constants(){var x=a.makeConstList
-D.aEl=new A.aV(0,1000,0,800)
-D.bCM=new A.ax(B.eD,28,B.h,null,null)
-D.aGf=new A.ML("label",B.a3l,E.azD,y.n)
-D.bCj=new A.ax(B.uk,18,null,null,null)
-D.aG5=new A.ML("tag",D.bCj,E.azl,y.n)
-D.bFH=new A.ax(B.lM,18,null,null,null)
-D.aGl=new A.ML("sticker",D.bFH,E.azW,y.n)
-D.cnE=x([D.aGf,D.aG5,D.aGl],A.b0("a9<ML<G>>"))
-D.ds6=new A.OA(3,16,16,1.2,null)})()};
-(a=>{a["nV6DtQtX0vE/gxtfQ3f+L5PZeb0="]=a.current})($__dart_deferred_initializers__);
+x(C.aU2.prototype,"gbzi","aoD",0)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
+x(A.an,[C.aaY,C.aU1])
+x(A.am,[C.byk,C.aU2])
+x(A.T8,[C.dcD,C.dcE,C.dcF,C.dcG,C.dcI,C.dcL,C.dcK,C.dcO,C.dcV,C.dcU,C.dcT,C.dcS,C.dcR,C.dcQ,C.dcP])
+x(A.Qw,[C.dcJ,C.dcH,C.dcN,C.dcW,C.dcX,C.dcY,C.dcZ,C.dd_,C.dd0,C.dd1,C.dd2,C.dd3,C.dd4,C.dd5])
+w(C.dcM,A.T9)})()
+A.Xo(b.typeUniverse,JSON.parse('{"aU1":{"an":[],"I":[],"o":[]},"aaY":{"an":[],"I":[],"o":[]},"byk":{"am":["aaY"],"o":[]},"aU2":{"am":["aU1"],"o":[]}}'))
+var y=(function rtii(){var x=A.b2
+return{n:x("Nb<E>"),V:x("ab<aI>"),O:x("ab<ae>"),t:x("ab<as<E,@>>"),s:x("ab<E>"),p:x("ab<I>"),w:x("c8<a1P>"),K:x("aH"),N:x("E"),z:x("@"),H:x("~")}})();(function constants(){var x=a.makeConstList
+D.aEv=new A.aW(0,1000,0,800)
+D.bCD=new A.aA(B.eW,28,B.h,null,null)
+D.aGl=new A.Nb("label",B.a3K,E.azM,y.n)
+D.bCb=new A.aA(B.ut,18,null,null,null)
+D.aGc=new A.Nb("tag",D.bCb,E.azu,y.n)
+D.bFz=new A.aA(B.lZ,18,null,null,null)
+D.aGq=new A.Nb("sticker",D.bFz,E.aA5,y.n)
+D.cnB=x([D.aGl,D.aGc,D.aGq],A.b2("ab<Nb<E>>"))
+D.drK=new A.Oc(3,16,16,1.2,null)})()};
+(a=>{a["tplQPGoYxIu0qiPHRI6Vreh34cM="]=a.current})($__dart_deferred_initializers__);
